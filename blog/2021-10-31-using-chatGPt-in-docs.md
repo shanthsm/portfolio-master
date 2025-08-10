@@ -1,7 +1,7 @@
 ---
 slug: using-chatGPt-in-docs
 title: ChatGPT in Product Docs
-author: Manish Jaiswal
+author: Shanth SM
 author_title: Senior Technical Writer
 author_url: https://github.com/jaiswalwrites
 author_image_url: https://avatars.githubusercontent.com/u/15789670?v=4
@@ -48,4 +48,4 @@ ChatGpt can also be integrated with the company's email support system. Customer
 
 ### Mobile app integration
 For companies with a mobile app, ChatGpt can be integrated into the app to provide customers with access to information and support while on the go.
-By the way, if you reading for the first time, my name is Manish Jaiswal and I help curate awesome docs.
+By the way, if you reading for the first time, my name is Shanth SM and I help curate awesome docs.

@@ -45,8 +45,8 @@ const projects: Array<ProjectType> = [
     img: 'img/djamaile-light.png',
     title: 'Portfolio',
     description: 'Personal portfolio',
-    codeLink: 'https://github.com/jaiswalwrites/',
-    liveLink: 'https://manishjaiswal.in/',
+    codeLink: 'https://github.com/shanthsm',
+    liveLink: 'https://shanthsm.github.io/portfolio-master/',
     techstack: ['ReactJS', 'TypeScript'],
   },
 ];

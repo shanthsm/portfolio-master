@@ -19,7 +19,7 @@ function HomepageHeader() {
           <Box m="auto">
             <Avatar
               alt="Shanth SM"
-              src={useBaseUrl('')}
+              src={useBaseUrl('/img/portfolio.png')}
               sx={{ width: 350, height: 350, m: 1 }}
             />
           </Box>
@@ -33,7 +33,7 @@ function HomepageHeader() {
 
 export default function Home() {
   return (
-    <Layout title="Home" description="Website of Manish Jaiswal">
+    <Layout title="Home" description="Website of Shanth SM">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

@@ -1,7 +1,7 @@
 ---
 slug: how-to-setup-Truffle
 title: 'Truffle Suite: The Complete Development Framework for dApp Developers'
-author: Manish Jaiswal
+author: Shanth SM
 author_title: Senior technical Writer
 author_url: https://manishjaiswal.myfreesites.net
 author_image_url: https://avatars.githubusercontent.com/u/15789670?v=4
