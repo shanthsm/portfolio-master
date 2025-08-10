@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://yourdomain.com/blog</id>
+    <id>https://shanthsm.github.io/portfolio/blog</id>
     <title>Shanthalingaiah SM Blog</title>
     <updated>2023-02-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://yourdomain.com/blog"/>
+    <link rel="alternate" href="https://shanthsm.github.io/portfolio/blog"/>
     <subtitle>Shanthalingaiah SM Blog</subtitle>
-    <icon>https://yourdomain.com/img/favicon.ico</icon>
+    <icon>https://shanthsm.github.io/portfolio/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Truffle Suite: The Complete Development Framework for dApp Developers]]></title>
-        <id>https://yourdomain.com/blog/how-to-setup-Truffle</id>
-        <link href="https://yourdomain.com/blog/how-to-setup-Truffle"/>
+        <id>https://shanthsm.github.io/portfolio/blog/how-to-setup-Truffle</id>
+        <link href="https://shanthsm.github.io/portfolio/blog/how-to-setup-Truffle"/>
         <updated>2023-02-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This blog explores the benefits of using Truffle Suite for developers and provides a comprehensive guide on how to onboard and utilize the platform.]]></summary>
         <content type="html"><![CDATA[<p>This blog explores the benefits of using Truffle Suite for developers and provides a comprehensive guide on how to onboard and utilize the platform.</p><p>Truffle Suite is a popular and comprehensive development framework for Ethereum blockchain-based decentralized applications (DApps). It provides a suite of tools that facilitate the creation, deployment, testing, and management of smart contracts on Ethereum. </p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="onboarding-with-truffle-suite">Onboarding with Truffle Suite<a href="#onboarding-with-truffle-suite" class="hash-link" aria-label="Direct link to Onboarding with Truffle Suite" title="Direct link to Onboarding with Truffle Suite">​</a></h2><p>To get started with Truffle Suite, you will need to have <code>Node.js</code> and <code>npm (Node Package Manager)</code> installed on your system.
@@ -26,8 +26,8 @@ You can download and install <code>Node.js</code> and <code>npm</code> from thei
     </entry>
     <entry>
         <title type="html"><![CDATA[ChatGPT in Product Docs]]></title>
-        <id>https://yourdomain.com/blog/using-chatGPt-in-docs</id>
-        <link href="https://yourdomain.com/blog/using-chatGPt-in-docs"/>
+        <id>https://shanthsm.github.io/portfolio/blog/using-chatGPt-in-docs</id>
+        <link href="https://shanthsm.github.io/portfolio/blog/using-chatGPt-in-docs"/>
         <updated>2023-01-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Whether you are a developer, product manager, or technical writer, this post will provide valuable insights into the use of ChatGPT in product documentation. #technicalwriting #docs #chatgpt #chatbot]]></summary>
         <content type="html"><![CDATA[<p>Whether you are a developer, product manager, or technical writer, this post will provide valuable insights into the use of ChatGPT in product documentation. #technicalwriting #docs #chatgpt #chatbot </p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a href="#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h3><p>As a technical writer, the success of ChatGpt has piqued my interest about how it can be used in a more purposeful manner, rather than being seen as a threat to our jobs. After considering the potential applications of ChatGpt, I believe that one of the most significant use cases for the ChatGpt is in product documentation. </p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-chatgpt">Why chatGPT?<a href="#why-chatgpt" class="hash-link" aria-label="Direct link to Why chatGPT?" title="Direct link to Why chatGPT?">​</a></h2><ol><li><p>By integrating ChatGpt with product documentation, companies can improve the customer experience by providing quick and accurate answers to customer questions and reducing the need for manual support. This can lead to increased customer satisfaction and a reduction in the number of support tickets generated.</p></li><li><p>One of the key benefits of integrating ChatGpt with product documentation is the ability to provide customers with fast access to information. Rather than having to wait for a support representative to become available or sift through pages of documentation to find an answer, customers can simply ask the chatbot their question and receive a tailored response within seconds.
@@ -45,8 +45,8 @@ By the way, if you reading for the first time, my name is Manish Jaiswal and I h
     </entry>
     <entry>
         <title type="html"><![CDATA[Why Tech Writers struggle to earn as much as their engineering folks?]]></title>
-        <id>https://yourdomain.com/blog/techwrters-struggle</id>
-        <link href="https://yourdomain.com/blog/techwrters-struggle"/>
+        <id>https://shanthsm.github.io/portfolio/blog/techwrters-struggle</id>
+        <link href="https://shanthsm.github.io/portfolio/blog/techwrters-struggle"/>
         <updated>2022-12-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Recently, there have been various studies which mentions tech writer's struggle to make decent pay.]]></summary>
         <content type="html"><![CDATA[<p>Recently, there have been various studies which mentions tech writer's struggle to make decent pay.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-glassdor-says">What Glassdor says?<a href="#what-glassdor-says" class="hash-link" aria-label="Direct link to What Glassdor says?" title="Direct link to What Glassdor says?">​</a></h2><p><strong>Dear Tech Writer Comrades!!</strong></p><p>You know, According to data from Glassdoor, the average salary for a technical writer in India is around INR 4.5 lakhs per year. This is significantly lower than the average salary for an engineer, which can range from INR 6 lakhs to INR 12 lakhs per year.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-tech-writing">What is tech writing?<a href="#what-is-tech-writing" class="hash-link" aria-label="Direct link to What is tech writing?" title="Direct link to What is tech writing?">​</a></h2><p>Technical writing is a crucial part of the engineering process, as it involves creating clear and accurate documentation for complex technical systems and processes.
