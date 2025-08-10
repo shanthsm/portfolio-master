@@ -6,7 +6,7 @@ module.exports = {
   title: 'Shanthalingaiah SM',
   tagline: 'Writer Who Codes | Docs Consultant | Content Strategist.',
   url: 'https://shanthsm.github.io', // GitHub Pages base URL
-  baseUrl: '/portfolio/', // Must have a trailing slash for project pages
+  baseUrl: '/portfolio-master/', // Must have a trailing slash for project pages
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
