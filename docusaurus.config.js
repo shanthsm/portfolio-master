@@ -5,13 +5,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Shanthalingaiah SM',
   tagline: 'Writer Who Codes | Docs Consultant | Content Strategist.',
-  url: 'https://yourdomain.com', // Update to your actual domain
-  baseUrl: '/',
+  url: 'https://shanthsm.github.io', // GitHub Pages base URL
+  baseUrl: '/portfolio/', // Must have a trailing slash for project pages
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'yourgithubusername', // Update to your GitHub username/org
-  projectName: 'portfolio', // Update if your repo name differs
+  organizationName: 'shanthsm', // GitHub username
+  projectName: 'portfolio', // Repo name
   trailingSlash: true,
 
   plugins: [
@@ -45,7 +45,7 @@ module.exports = {
       items: [
         { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/yourgithubusername', // Update this
+          href: 'https://github.com/shanthsm/portfolio',
           label: 'GitHub',
           position: 'right',
         },
@@ -64,7 +64,7 @@ module.exports = {
 
     metadata: [
       { name: 'robots', content: 'max-image-preview:large' },
-      { name: 'monetization', content: '$ilp.uphold.com/fYPB8Pjyig3z' }, // Optional: update or remove
+      { name: 'monetization', content: '$ilp.uphold.com/fYPB8Pjyig3z' },
     ],
   },
 
@@ -75,7 +75,7 @@ module.exports = {
         docs: false,
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/yourgithubusername/portfolio', // Update this
+          editUrl: 'https://github.com/shanthsm/portfolio/edit/master/',
           feedOptions: {
             type: 'all',
           },

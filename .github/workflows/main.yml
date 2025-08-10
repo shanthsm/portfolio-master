@@ -1,16 +1,15 @@
-name: Node.js CI
+name: Deploy Docusaurus to GitHub Pages
 
 on:
   push:
-    branches: [master]
+    branches: [master] # Change to your default branch if not 'main'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    continue-on-error: true
     strategy:
       matrix:
-        node-version: [20.x] # ✅ Upgrade to Node 20
+        node-version: [20.x]
     steps:
       - uses: actions/checkout@v4
 
@@ -34,12 +33,12 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
-      - name: Yarn installation & build
+      - name: Install dependencies & build
         run: yarn install --frozen-lockfile && yarn build
 
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.ACCESS_TOKEN }}
+          github_token: ${{ secrets.ACCESS_TOKEN }} # Or use ${{ secrets.GITHUB_TOKEN }} for public repos
+          publish_branch: gh-pages
           publish_dir: ./build
-
