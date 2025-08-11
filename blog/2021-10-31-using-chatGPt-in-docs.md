@@ -1,19 +1,19 @@
 ---
-slug: using-chatGPt-in-docs
-title: ChatGPT in Product Docs
-author: Shanth SM
-author_title: Senior Technical Writer
+slug: using-chatgpt-in-docs
+title: Why Tech Writers struggle to earn as much as their engineering folks?
+author: ShanthalingaiahSM
+author_title: Technical Writer
 author_url: https://github.com/jaiswalwrites
 author_image_url: https://avatars.githubusercontent.com/u/15789670?v=4
-tags: [chatGPT, product, docs]
+tags:
+  - techwriting
+  - engineering
 date: 2023-01-20
 ---
 
 Whether you are a developer, product manager, or technical writer, this post will provide valuable insights into the use of ChatGPT in product documentation. #technicalwriting #docs #chatgpt #chatbot 
 
-<!--truncate-->
-
-
+<!-- truncate -->
 
 ### Introduction
 
@@ -48,4 +48,4 @@ ChatGpt can also be integrated with the company's email support system. Customer
 
 ### Mobile app integration
 For companies with a mobile app, ChatGpt can be integrated into the app to provide customers with access to information and support while on the go.
-By the way, if you reading for the first time, my name is Shanth SM and I help curate awesome docs.
+By the way, if you reading for the first time, my name is Shanth SM and I help curate awesome docs. 

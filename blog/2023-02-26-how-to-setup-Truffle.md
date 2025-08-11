@@ -1,17 +1,19 @@
 ---
-slug: how-to-setup-Truffle
-title: 'Truffle Suite: The Complete Development Framework for dApp Developers'
-author: Shanth SM
-author_title: Senior technical Writer
-author_url: https://manishjaiswal.myfreesites.net
+slug: how-to-setup-truffle
+title: Why Tech Writers struggle to earn as much as their engineering folks?
+author: ShanthalingaiahSM
+author_title: Technical Writer
+author_url: https://github.com/jaiswalwrites
 author_image_url: https://avatars.githubusercontent.com/u/15789670?v=4
-tags: [Truffle, dApps, Ethereum, Blockchain]
+tags:
+  - techwriting
+  - engineering
 date: 2023-02-26
 ---
 
 This blog explores the benefits of using Truffle Suite for developers and provides a comprehensive guide on how to onboard and utilize the platform.
 
-<!--truncate-->
+<!-- truncate -->
 
 Truffle Suite is a popular and comprehensive development framework for Ethereum blockchain-based decentralized applications (DApps). It provides a suite of tools that facilitate the creation, deployment, testing, and management of smart contracts on Ethereum. 
 
