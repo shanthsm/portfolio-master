@@ -53,33 +53,33 @@ const projects: Array<ProjectType> = [
 
 const experience: Array<ExperienceType> = [
   {
-    img: 'img/arcana.png',
-    jobTitle: 'Blockchain Technical Writer',
-    company: 'Arcana network',
+    img: 'img/cf.png',
+    jobTitle: 'Senior Information Developer',
+    company: 'Cashfree Payments',
     date: 'March 2022 - April 2023',
     workLength: `${caculateWorkLength(new Date(2022, 1, 3), new Date())} mos`,
-    location: 'Full-time Remote',
+    location: 'Bengaluru',
     tasks: ['Curating docs for dApp Developers'],
     techstack: ['Blockchain', 'SDK docs', 'Ethereum', 'API docs'],
   },
   {
-    img: 'img/bol.png',
-    jobTitle: 'Senior Technical Writer',
-    company: 'Harness.io',
+    img: 'img/zeta.png',
+    jobTitle: 'Senior Information Writer',
+    company: 'Zeta',
     date: 'March 2021 - March 2022',
-    workLength: `1 yr 1 mos`,
-    location: 'Full-time Remote',
+    workLength: `2 yrs`,
+    location: 'Bengaluru',
     tasks: [
       'Curating docs for DevOps developers. Providing contextual hekps in product writing tooltips.'
     ],
     techstack: ['Markdown', 'CI', 'Kubernetes', 'Docker','Containers'],
   },
   {
-    img: 'img/ssm.png',
-    jobTitle: 'Senior Technical Writer',
-    company: 'McAfee',
+    img: 'img/ecw.png',
+    jobTitle: 'Technical Writer',
+    company: 'eClinicalWorks India Pvt Ltd',
     date: 'Sep 2019 - March 2021',
-    workLength: '1 year 7 mos',
+    workLength: '1 year 6 mos',
     location: 'Bangalore',
     tasks: [
       'Developed docs for the best-in-the-business CASB product of Mcafee called MVISION cloud.',
@@ -92,11 +92,11 @@ const experience: Array<ExperienceType> = [
     ],
   },
    {
-    img: 'img/ssc.png',
+    img: 'img/cg.png',
     jobTitle: 'Technical Writer',
-    company: 'KanTime Healthcare',
+    company: 'Capgemini',
     date: 'Jan 2016 - Aug 2019',
-    workLength: '3 yrs 8 mos',
+    workLength: '2 yrs 8 mos',
     location: 'Bangalore',
     tasks: [
       'Curated docs for a wide range of audience of healthcare industry',
@@ -116,15 +116,21 @@ const experience: Array<ExperienceType> = [
 const education: Array<EducationType> = [
   {
     img: 'img/hhs.png',
-    school: 'Veltech University',
-    study: 'bachelors in Computer Science and Engineering',
-    date: '2011 - 2015',
+    school: 'VTU University',
+    study: 'Bachelors in  Mechanical Engineering',
+    date: '2014 - 2018',
   },
   {
     img: 'img/lhs.png',
-    school: 'Kerala Public School',
-    study: '10th + 12th',
-    date: '2008 - 2010',
+    school: ' Mandaara Public School',
+    study: '11th + 12th',
+    date: '2012 - 2014',
+  },
+  {
+    img: 'img/lhs.png',
+    school: 'Gurudeva School',
+    study: '1st to 10th',
+    date: '2002 - 2012',
   },
   {
     img: 'img/glr.png',
