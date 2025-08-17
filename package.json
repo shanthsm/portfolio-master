@@ -17,25 +17,24 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-beta.6",
+    "@docusaurus/core": "^3.8.1",
     "@docusaurus/plugin-ideal-image": "^3.8.1",
-    "@docusaurus/plugin-pwa": "^2.0.0-beta.6",
-    "@docusaurus/preset-classic": "^2.0.0-beta.6",
-    "@docusaurus/theme-search-algolia": "^2.0.0-beta.6",
+    "@docusaurus/plugin-pwa": "^3.8.1",
+    "@docusaurus/preset-classic": "^3.8.1",
+    "@docusaurus/theme-search-algolia": "^3.8.1",
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
-    "@material-ui/core": "^4.12.3",
-    "@mdx-js/react": "^1.6.21",
-    "@mui/material": "^5.0.2",
+    "@mui/material": "^5.14.0",
+    "@mui/styles": "^5.14.0",
     "@svgr/webpack": "^8.1.0",
     "clsx": "^1.1.1",
     "fg-loadcss": "^3.1.0",
     "file-loader": "^6.2.0",
     "latest": "^0.2.0",
     "prism-react-renderer": "^1.2.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-swipeable-views": "^0.12.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-swipeable-views": "^0.15.0",
     "url-loader": "^4.1.1"
   },
   "browserslist": {
@@ -51,10 +50,10 @@
     ]
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^2.0.0-beta.6",
+    "@docusaurus/module-type-aliases": "^3.8.1",
     "@spotify/prettier-config": "^12.0.0",
     "@tsconfig/docusaurus": "^1.0.3",
-    "@types/react": "^17.0.16",
+    "@types/react": "^18.0.28",
     "@types/react-helmet": "^6.1.2",
     "@types/react-router-dom": "^5.1.8",
     "eslint-plugin-notice": "^0.9.10",
@@ -74,4 +73,3 @@
     ]
   }
 }
-

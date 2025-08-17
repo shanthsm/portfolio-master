@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Shanthalingaiah SM',
-  tagline: 'Writer Who Codes | Docs Consultant | Content Strategist.',
+  tagline: 'Writer Who Codes | Docs Consultant | Content Strategist',
   url: 'https://shanthsm.github.io', // GitHub Pages base URL
   baseUrl: '/portfolio-master/', // Must have a trailing slash for project pages
   onBrokenLinks: 'throw',

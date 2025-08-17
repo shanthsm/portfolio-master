@@ -1,17 +1,19 @@
 ---
-slug: techwrters-struggle
+slug: techwriters-struggle
 title: Why Tech Writers struggle to earn as much as their engineering folks?
-author: Shanth SM
+author: ShanthalingaiahSM
 author_title: Technical Writer
 author_url: https://github.com/jaiswalwrites
 author_image_url: https://avatars.githubusercontent.com/u/15789670?v=4
-tags: [techwriting, engineering]
+tags:
+  - techwriting
+  - engineering
 date: 2022-12-26
 ---
 
 Recently, there have been various studies which mentions tech writer's struggle to make decent pay.
 
-<!--truncate-->
+<!-- truncate -->
 
 ## What Glassdor says?
 
@@ -47,4 +49,4 @@ So what can you do to address these issues and improve their earning potential?
 
 5. You can also consider joining professional organizations and networking with other technical writers to stay up-to-date on industry trends and best practices. 
 
-This can help you stay competitive and increase your visibility within the industry.
+This can help you stay competitive and increase your visibility within the industry. 
