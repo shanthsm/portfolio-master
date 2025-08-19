@@ -1,19 +1,9 @@
-import { makeStyles, createStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@mui/styles';
+import { createStyles } from '@mui/styles';
 
-const resumeStyles = makeStyles(() =>
+export const resumeStyles = makeStyles(() =>
   createStyles({
-    title: {
-      fontWeight: 700,
-      fontSize: '2rem',
-      marginBottom: 15,
-    },
     container: {
-      display: 'flex',
-      width: '100%',
-      justifyContent: 'space-between',
-      margin: 15,
-    },
-    content: {
       flexDirection: 'column',
       display: 'flex',
       width: '100%',
@@ -48,32 +38,22 @@ const resumeStyles = makeStyles(() =>
       overflow: 'hidden',
       marginBottom: 8,
     },
-    jobTitle: {
-      fontSize: 16,
-      fontWeight: 600,
-      marginBottom: 0,
-      marginTop: 0,
+    title: {
+      fontWeight: 800,
+      fontSize: 18,
+      marginBottom: 4,
     },
-    company: {
-      display: 'inline',
-      fontSize: 13,
-    },
-    flex: {
-      display: 'flex',
-    },
-    date: {
-      fontSize: 10,
-      marginTop: 0,
-      marginBottom: 0,
-    },
-    city: {
-      marginLeft: 80,
-      fontSize: 10,
-    },
-    information: {
+    description: {
       fontSize: 14,
+      color: '#666',
+      marginBottom: 8,
     },
-  }),
+    link: {
+      color: 'blue',
+      textDecoration: 'none',
+      '&:hover': {
+        textDecoration: 'underline',
+      },
+    },
+  })
 );
-
-export { resumeStyles };

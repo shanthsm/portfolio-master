@@ -1,5 +1,5 @@
-import { makeStyles } from '@material-ui/core';
-import { createStyles } from '@material-ui/styles';
+import { makeStyles } from '@mui/styles';
+import { createStyles } from '@mui/styles';
 
 export const projectStyles = makeStyles(() =>
   createStyles({
@@ -43,5 +43,5 @@ export const projectStyles = makeStyles(() =>
       padding: '.5rem .7rem',
       color: 'blue',
     },
-  }),
+  })
 );
