@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdjamaile_dev=self.webpackChunkdjamaile_dev||[]).push([[154],{7592:e=>{e.exports=JSON.parse('{"label":"Truffle","permalink":"/portfolio-master/blog/tags/truffle","allTagsPath":"/portfolio-master/blog/tags","count":1}')}}]);
