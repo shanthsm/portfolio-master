@@ -7,6 +7,7 @@ on:
 permissions:
   id-token: write # Required for authentication
   contents: read  # Required to read repository contents
+  pages: write    # Required to deploy to GitHub Pages
 
 jobs:
   build:
@@ -34,6 +35,9 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write # Grant permission to deploy to GitHub Pages
+      id-token: write # Required for authentication
     steps:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
