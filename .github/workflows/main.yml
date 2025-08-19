@@ -5,41 +5,32 @@ on:
     branches: [master] # Change to your default branch if not 'master'
 
 permissions:
-  id-token: write # Required for authentication
-  contents: read  # Required to read repository contents
-  pages: write    # Required to deploy to GitHub Pages
+  contents: write # Required to push to the gh-pages branch
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # Step 1: Checkout the repository
       - uses: actions/checkout@v4
 
+      # Step 2: Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18 # Use Node.js >=18.0 as required by Docusaurus
 
+      # Step 3: Install dependencies
       - name: Install dependencies
         run: npm install
 
+      # Step 4: Build the Docusaurus site
       - name: Build Docusaurus site
         run: npm run build
 
-      - name: Upload build output as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: github-pages
-          path: build # Ensure this matches your Docusaurus build output directory
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write # Grant permission to deploy to GitHub Pages
-      id-token: write # Required for authentication
-    steps:
+      # Step 5: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: build # Ensure this matches your Docusaurus build output directory
