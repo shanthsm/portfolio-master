@@ -4,14 +4,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Shanthalingaiah SM',
-  tagline: 'Writer Who Codes | Docs Consultant | Content Strategist',
+  tagline: 'Senior Information Developer | API Docs, Integration Guides & SDKs | 7+ Years in Fintech, Healthcare & Automotive',
   url: 'https://shanthsm.github.io', // GitHub Pages base URL
   baseUrl: '/portfolio-master/', // Must have a trailing slash for project pages
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/lazybones-sloth.svg',
   organizationName: 'shanthsm', // GitHub username
-  projectName: 'portfolio', // Repo name
+  projectName: 'portfolio-master', // Repo name
   trailingSlash: true,
 
   plugins: [
@@ -21,14 +21,14 @@ module.exports = {
         debug: true,
         offlineModeActivationStrategies: ['appInstalled', 'standalone', 'queryString'],
         pwaHead: [
-          { tagName: 'link', rel: 'icon', href: '/img/mob-2.png' },
+          { tagName: 'link', rel: 'icon', href: '/img/lazybones-sloth.svg' },
           { tagName: 'link', rel: 'manifest', href: 'manifest.json' },
           { tagName: 'meta', name: 'theme-color', content: 'rgb(37, 194, 160)' },
           { tagName: 'meta', name: 'apple-mobile-web-app-capable', content: 'yes' },
           { tagName: 'meta', name: 'apple-mobile-web-app-status-bar-style', content: '#000' },
-          { tagName: 'link', rel: 'apple-touch-icon', href: 'img/docusaurus.png' },
-          { tagName: 'link', rel: 'mask-icon', href: 'img/docusaurus.png', color: 'rgb(62, 204, 94)' },
-          { tagName: 'meta', name: 'msapplication-TileImage', content: 'img/docusaurus.png' },
+          { tagName: 'link', rel: 'apple-touch-icon', href: 'img/lazybones-sloth.svg' },
+          { tagName: 'link', rel: 'mask-icon', href: 'img/lazybones-sloth.svg', color: 'rgb(62, 204, 94)' },
+          { tagName: 'meta', name: 'msapplication-TileImage', content: 'img/lazybones-sloth.svg' },
           { tagName: 'meta', name: 'msapplication-TileColor', content: '#000' },
         ],
       },
@@ -36,24 +36,71 @@ module.exports = {
   ],
 
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
     navbar: {
       title: 'Shanthalingaiah SM',
       logo: {
-        alt: 'Site Logo',
-        src: 'img/mob-2.png',
+        alt: 'Lazybones Sloth Logo',
+        src: 'img/lazybones-sloth.svg',
       },
       items: [
-        { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/shanthsm/portfolio',
+          href: 'https://www.linkedin.com/in/shanth-sm',
+          label: 'LinkedIn',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/shanthsm',
           label: 'GitHub',
+          position: 'right',
+        },
+        { to: '/blog', label: 'Blog', position: 'right' },
+        {
+          href: 'https://drive.google.com/file/d/1Wrhe51_TvbubztaVKN0g4pKabegtMOz3/view?usp=sharing',
+          label: 'Resume',
           position: 'right',
         },
       ],
     },
 
     footer: {
-      style: 'light',
+      style: 'dark',
+      links: [
+        {
+          title: 'Connect',
+          items: [
+            {
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/shanth-sm',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/shanthsm',
+            },
+            {
+              label: 'Email',
+              href: 'mailto:shanth.hr18@gmail.com',
+            },
+          ],
+        },
+        {
+          title: 'More',
+          items: [
+            {
+              label: 'Blog',
+              to: '/blog',
+            },
+            {
+              label: 'Resume',
+              href: 'https://drive.google.com/file/d/1Wrhe51_TvbubztaVKN0g4pKabegtMOz3/view?usp=sharing',
+            },
+          ],
+        },
+      ],
       copyright: `Copyright © ${new Date().getFullYear()} Shanthalingaiah SM. Built with Docusaurus.`,
     },
 
@@ -63,6 +110,7 @@ module.exports = {
     },
 
     metadata: [
+      { name: 'description', content: 'Portfolio of Shanthalingaiah SM - Senior Information Developer specializing in API documentation, developer portals, and technical content for fintech, healthcare, and automotive industries.' },
       { name: 'robots', content: 'max-image-preview:large' },
       { name: 'monetization', content: '$ilp.uphold.com/fYPB8Pjyig3z' },
     ],
@@ -75,7 +123,7 @@ module.exports = {
         docs: false,
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/shanthsm/portfolio/edit/master/',
+          editUrl: 'https://github.com/shanthsm/portfolio-master/edit/master/',
           feedOptions: {
             type: 'all',
           },

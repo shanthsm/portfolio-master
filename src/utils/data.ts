@@ -4,7 +4,7 @@ import {
   Project as ProjectType,
 } from '../types';
 
-const caculateWorkLength = (startMonth: Date, endMonth: Date): number => {
+const calculateWorkLength = (startMonth: Date, endMonth: Date): number => {
   let months = (endMonth.getFullYear() - startMonth.getFullYear()) * 12;
   months -= startMonth.getMonth() + 1;
   months += endMonth.getMonth();
@@ -13,41 +13,39 @@ const caculateWorkLength = (startMonth: Date, endMonth: Date): number => {
 
 const projects: Array<ProjectType> = [
   {
-    img: 'img/ourmanga.png',
-    title: 'Docs for dApp Developers',
+    img: 'img/cashfree-docs.png',
+    title: 'Docs for Cashfree Payments',
     description:
-      'Created docs from scratch to onboard users to blockchain-powered Auth, Storage, Privacy and Identity tech stacks.',
-    codeLink: 'https://github.com/orgs/arcana-network/repositories',
-    liveLink: 'https://docs.arcana.network/',
-    techstack: ['Blockchain', 'SDK docs', 'Ethereum', 'API docs'],
+      'Spearheaded migration from ReadMe to Mintlify. Published comprehensive API references, SDK documentation, integration guides, and troubleshooting resources for developers.',
+    codeLink: '',
+    liveLink: 'https://www.cashfree.com/docs',
+    techstack: ['API docs', 'SDK docs', 'Mintlify', 'Fintech'],
   },
   {
-    img: 'img/kanji.png',
-    title: 'Docs for DevOps admin and developers',
+    img: 'img/cashfree-video.png',
+    title: 'Videos and Visuals at Cashfree',
     description:
-      'Part of early age startup. Led the documentation and took the product to a successful GA. Later it became an unicorn.',
+      'Created and edited engaging video tutorials to explain walkthroughs, integration processes, and product features for visual learners.',
     codeLink: '',
-    liveLink: 'https://developer.harness.io/docs/continuous-integration',
-    techstack: ['Markdown', 'CI', 'Kubernetes', 'Docker','Containers'],
+    liveLink: 'https://www.youtube.com/watch?v=cCuJDFY2QSs',
+    techstack: ['Video Production', 'Camtasia', 'Trupeer', 'Fintech'],
   },
   {
-    img: 'img/anatoken.png',
-    title: 'Docs for admins and developers ensuring cloud security for SaaS, PaaS, and IaaS.',
+    img: 'img/zeta-docs.png',
+    title: 'Docs for Zeta',
     description:
-      'Led the documentation efforts for a CASB (Cloud Access Security broker).',
+      'Developed and maintained 200+ pages of technical documentation including How-to guides, User guides, Runbooks, API docs, and Video tutorials using docs-as-code methodology.',
     codeLink: '',
-    liveLink: 'https://success.myshn.net/Skyhigh_Cloud_Infrastructure_(CNAPP)/CSPM/CSPM_DLP_On-Demand_Scans/Create_a_DLP_On-Demand_Scan_for_GCP',
-    techstack: [
-    'Enterprise Anti-Virus', 
-    'Identity & Access Management (IAM)'],
+    liveLink: 'https://cipherdocs0zetaapps.olympus-world.zetaapps.in/',
+    techstack: ['Hugo', 'Markdown', 'REST API', 'Lucidchart'],
   },
   {
     img: 'img/djamaile-light.png',
     title: 'Portfolio',
-    description: 'Personal portfolio',
+    description: 'Personal portfolio built with Docusaurus showcasing projects and experience.',
     codeLink: 'https://github.com/shanthsm',
     liveLink: 'https://shanthsm.github.io/portfolio-master/',
-    techstack: ['ReactJS', 'TypeScript'],
+    techstack: ['ReactJS', 'TypeScript', 'Docusaurus'],
   },
 ];
 
@@ -56,58 +54,56 @@ const experience: Array<ExperienceType> = [
     img: 'img/cf.png',
     jobTitle: 'Senior Information Developer',
     company: 'Cashfree Payments',
-    date: 'March 2022 - April 2023',
-    workLength: `${caculateWorkLength(new Date(2022, 1, 3), new Date())} mos`,
-    location: 'Bengaluru',
-    tasks: ['Curating docs for dApp Developers'],
-    techstack: ['Blockchain', 'SDK docs', 'Ethereum', 'API docs'],
+    date: 'Oct 2024 - Present',
+    workLength: '1 year 5 months',
+    location: 'Bengaluru, Karnataka, India',
+    tasks: ['Spearheaded migration to Mintlify. Built and led a team of 3 writers. Implemented Vale integration, AI-powered documentation, and analytics-driven content strategy.'],
+    techstack: ['Mintlify', 'Vale', 'ChatGPT', 'Google Analytics', 'Jira'],
   },
   {
     img: 'img/zeta.png',
-    jobTitle: 'Senior Information Writer',
+    jobTitle: 'Senior Information Developer',
     company: 'Zeta',
-    date: 'March 2021 - March 2022',
-    workLength: `2 yrs`,
-    location: 'Bengaluru',
+    date: 'Nov 2022 - Oct 2024',
+    workLength: '2 years',
+    location: 'Bengaluru, Karnataka, India',
     tasks: [
-      'Curating docs for DevOps developers. Providing contextual hekps in product writing tooltips.'
+      'Adopted docs-as-code methodology. Developed 200+ pages of technical docs. Increased user engagement by 20% through improved content strategy and SEO.'
     ],
-    techstack: ['Markdown', 'CI', 'Kubernetes', 'Docker','Containers'],
+    techstack: ['Hugo', 'Markdown', 'Git', 'Figma', 'Adobe Premiere Pro'],
   },
   {
     img: 'img/ecw.png',
     jobTitle: 'Technical Writer',
     company: 'eClinicalWorks India Pvt Ltd',
-    date: 'Sep 2019 - March 2021',
-    workLength: '1 year 6 mos',
-    location: 'Bangalore',
+    date: 'May 2021 - Nov 2022',
+    workLength: '1 year 7 months',
+    location: 'Bengaluru, Karnataka, India',
     tasks: [
-      'Developed docs for the best-in-the-business CASB product of Mcafee called MVISION cloud.',
+      'Developed User Guides, Online Help, Release Notes for EMR and RCM software. Reduced user errors by 50% and improved billing accuracy by 25%.',
     ],
     techstack: [ 
-      'Cloud Access Security Broker (CASB)', 
-      'Enterprise Anti-Virus', 
-      'Identity & Access Management (IAM)', 
-    
+      'Postman', 
+      'REST APIs', 
+      'Adobe Photoshop', 
+      'Microsoft Streams',
     ],
   },
-   {
+  {
     img: 'img/cg.png',
     jobTitle: 'Technical Writer',
     company: 'Capgemini',
-    date: 'Jan 2016 - Aug 2019',
-    workLength: '2 yrs 8 mos',
-    location: 'Bangalore',
+    date: 'Sep 2018 - May 2021',
+    workLength: '2 years 7 months',
+    location: 'Bengaluru, Karnataka, India',
     tasks: [
-      'Curated docs for a wide range of audience of healthcare industry',
+      'Prepared installation and troubleshooting manuals for Volvo trucks. Adhered to MSTP guidelines and performed user acceptance testing.',
     ],
     techstack: [
-      'Camtasia',
-      'SnagIt',
-      'HelpDocs',
-      'MindTouch',
-      'Kubernetes',
-      'GraphQL',
+      'MSTP',
+      'User Manuals',
+      'Release Notes',
+      'UAT Testing',
     ],
   },
   
@@ -117,17 +113,17 @@ const education: Array<EducationType> = [
   {
     img: 'img/hhs.png',
     school: 'VTU University',
-    study: 'Bachelors in  Mechanical Engineering',
+    study: 'Bachelors in Mechanical Engineering',
     date: '2014 - 2018',
   },
   {
-    img: 'img/lhs.png',
-    school: ' Mandaara Public School',
+    img: 'img/school-placeholder.svg',
+    school: 'Mandaara Public School',
     study: '11th + 12th',
     date: '2012 - 2014',
   },
   {
-    img: 'img/lhs.png',
+    img: 'img/school-placeholder.svg',
     school: 'Gurudeva School',
     study: '1st to 10th',
     date: '2002 - 2012',
@@ -135,8 +131,8 @@ const education: Array<EducationType> = [
   {
     img: 'img/glr.png',
     school: 'Udemy',
-    study: '[DevOps Masterclass]',
-    date: '2022',
+    study: 'OpenAPI Specification & Swagger Tools - Zero To Master',
+    date: '2024',
   },
 ];
 
