@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdjamaile_dev=self.webpackChunkdjamaile_dev||[]).push([[938],{7186:e=>{e.exports=JSON.parse('{"authors":[{"name":"Shanthalingaiah SM","title":"Senior Technical Writer","url":"https://github.com/shanthsm","imageURL":"/portfolio-master/img/lazybones-sloth.svg","key":"shanthsm","page":null,"count":3}]}')}}]);
