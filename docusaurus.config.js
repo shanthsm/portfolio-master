@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Shanthalingaiah SM',
-  tagline: 'Senior Information Developer | API Docs, Integration Guides & SDKs | 7+ Years in Fintech, Healthcare & Automotive',
+  tagline: 'Senior Information Developer | API Docs, Integration Guides & SDKs | 7+ Years in Fintech and SaaS',
   url: 'https://shanthsm.github.io', // GitHub Pages base URL
   baseUrl: '/portfolio-master/', // Must have a trailing slash for project pages
   onBrokenLinks: 'throw',
@@ -58,9 +58,9 @@ module.exports = {
           label: 'GitHub',
           position: 'right',
         },
-        { to: '/blog', label: 'Blog', position: 'right' },
+        // { to: '/blog', label: 'Blog', position: 'right' },
         {
-          href: 'https://drive.google.com/file/d/1Wrhe51_TvbubztaVKN0g4pKabegtMOz3/view?usp=sharing',
+          href: 'https://drive.google.com/file/d/1U5fc4bBer35JL9SHr7_X7D65xScPoRqe/view?usp=sharing',
           label: 'Resume',
           position: 'right',
         },
@@ -90,13 +90,13 @@ module.exports = {
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
+            // {
+            //   label: 'Blog',
+            //   to: '/blog',
+            // },
             {
               label: 'Resume',
-              href: 'https://drive.google.com/file/d/1Wrhe51_TvbubztaVKN0g4pKabegtMOz3/view?usp=sharing',
+              href: 'https://drive.google.com/file/d/1U5fc4bBer35JL9SHr7_X7D65xScPoRqe/view?usp=sharing',
             },
           ],
         },
@@ -121,15 +121,16 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: false,
-        blog: {
-          showReadingTime: true,
-          editUrl: 'https://github.com/shanthsm/portfolio-master/edit/master/',
-          feedOptions: {
-            type: 'all',
-          },
-          postsPerPage: 3,
-          truncateMarker: /<!--\s*(truncate)\s*-->/,
-        },
+        blog: false, // Disable blog
+        // blog: {
+        //   showReadingTime: true,
+        //   editUrl: 'https://github.com/shanthsm/portfolio-master/edit/master/',
+        //   feedOptions: {
+        //     type: 'all',
+        //   },
+        //   postsPerPage: 3,
+        //   truncateMarker: /<!--\s*(truncate)\s*-->/,
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },

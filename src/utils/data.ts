@@ -31,12 +31,12 @@ const projects: Array<ProjectType> = [
     techstack: ['Video Production', 'Camtasia', 'Trupeer', 'Fintech'],
   },
   {
-    img: 'img/zeta-docs.png',
+    img: 'img/axon.png',
     title: 'Docs for Zeta',
     description:
       'Developed and maintained 200+ pages of technical documentation including How-to guides, User guides, Runbooks, API docs, and Video tutorials using docs-as-code methodology.',
     codeLink: '',
-    liveLink: 'https://cipherdocs0zetaapps.olympus-world.zetaapps.in/',
+    liveLink: 'https://toolkit.axon.zetapay.tech/',
     techstack: ['Hugo', 'Markdown', 'REST API', 'Lucidchart'],
   },
   {
@@ -68,7 +68,7 @@ const experience: Array<ExperienceType> = [
     workLength: '2 years',
     location: 'Bengaluru, Karnataka, India',
     tasks: [
-      'Adopted docs-as-code methodology. Developed 200+ pages of technical docs. Increased user engagement by 20% through improved content strategy and SEO.'
+      'Adopted docs-as-code methodology. Developed 200+ pages of technical docs. Created and maintained microsites for developer documentation. Increased user engagement by 20% through improved content strategy and SEO.'
     ],
     techstack: ['Hugo', 'Markdown', 'Git', 'Figma', 'Adobe Premiere Pro'],
   },
